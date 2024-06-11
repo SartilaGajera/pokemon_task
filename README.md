@@ -1,16 +1,48 @@
-# pokemon_task
+# Pokemon App
 
-A new Flutter project.
+Pokemon App is a Flutter application designed to allow users to view information about pokemon and it's details. It utilizes the flutter_bloc state management library for efficient state handling api call.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- View a list of pokemons 
+- View details of pokemon species
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Requirements
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK : 3.22.1
+
+## Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/SartilaGajera/pokemon_task.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd pokemon_task
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+5. **Run the app:**
+
+    ```bash
+    flutter run
+    ```
+
+## Usage
+
+- Upon launching the app, you'll be presented with pokemon list.
+- Tap on a pokemon to show detail of pokemon
+
+## State Management
+
+This app uses flutter_bloc for state management, which provides a simple and efficient way to manage state and update UI components.
